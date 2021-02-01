@@ -1,0 +1,26 @@
+{
+    "name": "everaldomatias/notification",
+    "description": "A library that uses composer as the basis for generating email notifications",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Everaldo Matias",
+            "email": "matiaseveraldo@gmail.com",
+            "homepage": "https://everaldo.dev",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "6.2.0"
+    },
+    "config": {
+        "vendor-dir": "libs"
+    },
+    "autoload": {
+        "psr-4": {
+            "Notification\\": "_app"
+        }
+    }
+}
